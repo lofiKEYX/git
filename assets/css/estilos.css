@@ -49,16 +49,16 @@ header, .navbar, footer {
   color: #fff;
 }
 
-#trabajo1 {
-  background-image: url("../img/card-1.png");
-}
-
 .card-text {
   color: #000;
 }
 
 .card-title {
   color: #000;
+}
+
+#trabajo1 {
+  background-image: url("../img/card-1.png");
 }
 
 #trabajo2 {
@@ -69,9 +69,10 @@ header, .navbar, footer {
   background-image: url("../img/card-3.png");
 }
 
+
 #Contacto form label {
   font-weight: 700;
-  color: #373a3c;
+  color: #ffffff;
 }
 
 @media (max-width: 768px) {
