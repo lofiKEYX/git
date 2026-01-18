@@ -1,17 +1,45 @@
 body {
   font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
 }
 
-/* Hero Section */
+header, .navbar, footer {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar, #Hero-Section, footer {
+  background-color: #000 !important;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
 
 #Hero-Section {
+  padding-top: 100px;
   background-image: url("../img/bg-hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
 }
 
-/* Mis trabajos */
+#Acerca-de-mi {
+  width: 100%;
+  padding: 60px 0;
+  background-color: #000;
+}
+
+#Acerca-de-mi h2,
+#Acerca-de-mi h3,
+#Acerca-de-mi p,
+#Acerca-de-mi i {
+  color: #fff;
+}
 
 #Mis-trabajos .image-top {
   height: 250px;
@@ -20,7 +48,17 @@ body {
   background-position: center;
 }
 
-/* Contacto */
+#trabajo1 {
+  background-image: url("../img/card-1.png");
+}
+
+#trabajo2 {
+  background-image: url("../img/card-2.png");
+}
+
+#trabajo3 {
+  background-image: url("../img/card-3.png");
+}
 
 #Contacto form label {
   font-weight: 700;
@@ -32,8 +70,7 @@ body {
     font-weight: 400;
   }
 
-  .navbar-brand{
+  .navbar-brand {
     width: 100px;
   }
-
 }
